@@ -80,7 +80,7 @@
   <platform name="android">
     <framework src="com.google.android.gms:play-services-fitness:11.0.1" />
 
-    <config-file target="AndroidManifest.xml" parent="/*">
+    <config-file target="AndroidManifest.xml" parent="/manifest">
       <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
       <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
       <uses-permission android:name="android.permission.BODY_SENSORS" />
