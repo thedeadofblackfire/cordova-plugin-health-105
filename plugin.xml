@@ -78,7 +78,8 @@
 
   <!-- android -->
   <platform name="android">
-    <framework src="com.google.android.gms:play-services-fitness:11.0.1" />
+    <framework src="com.google.android.gms:play-services-fitness:11.6.2" />
+	<!-- <framework src="com.google.android.gms:play-services-fitness:11.0.1" /> -->
 
     <config-file target="AndroidManifest.xml" parent="/*">
       <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
